@@ -16,15 +16,15 @@ Let me know how it works.
 
 
 
-![Animation](https://raw.githubusercontent.com/doefler/react-native-social-share/master/animation-looping.gif)
+![Animation](https://raw.githubusercontent.com/WCChimiiz/react-native-social-share/master/animation-looping.gif)
 
 
 ## Getting started
 
-1. `npm install react-native-social-share --save`
+1. `npm install wcchimiiz-react-native-social-share --save`
 2. `react-native link`
 3. In XCode, in the project navigator right click `Libraries` ➜ `Add Files to [your project's name]`
-4. Go to `node_modules` ➜ `react-native-social-share`➜ iOS and add `KDSocialShare.h` and `KDSocialShare.m` 
+4. Go to `node_modules` ➜ `wcchimiiz-react-native-social-share`➜ iOS and add `KDSocialShare.h` and `KDSocialShare.m` 
 5. Go to your project's `Build Phases` ➜ `Link Binary With Libraries` phase
 6. Add `Social.framework` to ➜ `Link Binary With Libraries` build phase of your project (click the '+' and search for 'social').
 7. Add 'LSApplicationQueriesSchemes' key (Type: Array) with items (Type: String) 'fb' and 'twitter'  to `Info.plist` of your project 
@@ -39,7 +39,7 @@ First you should make the native implementation available in the react code by i
 import {
   shareOnFacebook,
   shareOnTwitter,
-} from 'react-native-social-share';
+} from 'wcchimiiz-react-native-social-share';
 ```
 After doing that you will be able to popup the share views from your own functions. I made two examples below, one for Facebook and one for Twitter
 ```
@@ -134,7 +134,7 @@ var {
 import {
   shareOnFacebook,
   shareOnTwitter,
-} from 'react-native-social-share';
+} from 'wcchimiiz-react-native-social-share';
 
 
 var ReactNativeSocialShare = React.createClass({
@@ -226,7 +226,7 @@ AppRegistry.registerComponent('ReactNativeSocialShare', () => ReactNativeSocialS
 
 ## Done
 
-![Screenshot](https://raw.githubusercontent.com/doefler/react-native-social-share/master/still.png)
+![Screenshot](https://raw.githubusercontent.com/WCChimiiz/react-native-social-share/master/still.png)
 
 
 ## Who is using it
